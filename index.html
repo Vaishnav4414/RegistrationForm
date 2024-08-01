@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<style type="text/css">
+		#maindiv{
+			width: 100%
+			border:2px solid green;
+			position: relative;
+			background-color: #75e2e9; 
+			height: 900px;
+		}
+		#inf{
+          
+          width: 25%;
+          position:absolute;
+          margin-left: 25%;
+          margin-top: 140px;
+          height: 450px;
+          background: #3786be;
+         
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+		}
+		#form{
+
+        
+          width: 25%;
+          position: absolute;
+          margin-left: 50%;
+          margin-top: 140px;
+          height: 450px;
+          background-color: white;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+		}
+		.head{
+			color: white;
+			font-family: "Arial Rounded MT Bold"
+		}
+         p{
+         	color: white;
+         }
+         .abtn{
+         	margin-left: 15px;
+         	width: 130px;
+         	height: 50px;
+         	background-color: white;
+         	color: black;
+         	font-weight: bold;
+         	border: 2px solid black;
+         }
+         .sbtn{
+         	margin-left: 15px;
+         	width: 130px;
+         	height: 50px;
+         	background-color: #3786be;
+         	color: white;
+         	font-weight: bold;
+         	border: 2px solid white;
+         	margin-top: 20px;
+         }
+         .hdreg{
+         	color:#237bb9;
+         }
+         .fn{
+         	margin-left: 50px;
+         }
+         .ln{
+         	margin-left: 30px;
+         }
+         #fn{
+         	width: 95px;
+         	margin-left: 35px;
+         }
+         #ln{
+         	width: 95px;
+         	margin-left: 10px;
+         }
+         .x:hover{
+             border:2px solid green;
+             color: green
+         }
+         .y:hover{
+             border:2px solid yellow;
+             color: yellow
+         }
+	</style>
+</head>
+<body>
+<div id="maindiv">
+	<div id="inf"><h2 class="head">Information</h2>
+		<p align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<button class="abtn">
+			Have an Account
+		</button>
+
+	</div>
+	<div id="form"><h2 class="hdreg">Registration</h2>
+<label class="fn">First Name</label>
+<label class="ln">Last Name</label><br>
+<input type="text" name="fn" id="fn">
+<input type="text" name="ln" id="ln"><br><br>
+
+<label class="em" style="margin-left: 50px">your Email</label><br><br>
+<input type="Email" name="email" style="margin-left: 45px; width: 200px"><br><br>
+<label class="fn">Password</label>
+<label class="ln">confirm Password</label><br>
+<input type="password" name="fn" id="fn" class="x">
+<input type="password" name="ln" id="ln" class="y"><br><br>
+<img src="chk.png" width="20px" height="20px"> I agree to the <a href="https://www.google.com/search?q=checkbox+logo&oq=checkbox+lo&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDc2OTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=WkqeH89ky4DBsM&vssid=_5jirZvefIsaanesP9Myn0A0_35" style="color: cyan">Terms and conditions</a>
+<br>
+<button class="sbtn">
+			Have an Account
+		</button>
+	</div>
+	
+</div>
+</body>
+</html>
